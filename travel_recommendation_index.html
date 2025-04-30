@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Recommendations - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="travel_recommendation.js" defer></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        nav {
+            background-color: #f0f0f0;
+            padding: 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a { margin-right: 15px; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="travel_recommendation_index.html">Home</a>
+        <a href="travel_recommendation_about.html">About Us</a>
+        <a href="travel_recommendation_contact.html">Contact Us</a>
+        <input type="text" id="searchInput" placeholder="Search destinations...">
+        <button onclick="search()">Search</button>
+        <button onclick="clearResults()">Reset</button>
+    </nav>
+
+    <section class="home-container" style="
+    background-image: url('https://eu-assets.simpleview-europe.com/hampshire2016/imageresizer/?image=%2Fdbimgs%2FPortsmouth%20Banner.jpg&action=MainGalleryImg');
+    background-size: cover;
+    color: white;
+    padding: 60px 20px;
+    text-align: right;
+">
+
+        <h1>Welcome to my travel recommendations!</h1>
+        <p>Discover destinations across the world!</p>
+        <div class="social-icons">
+    <img src="https://img.icons8.com/m_sharp/512/facebook-new.png" alt="Facebook" style="width: 24px; height: 24px;">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/023/986/736/small/twitter-logo-twitter-logo-transparent-twitter-icon-transparent-free-free-png.png" alt="Twitter" style="width: 24px; height: 24px;">
+</div>
+
+        <div id="results"></div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Bali Beach",
+      "description": "A beautiful tropical beach in Indonesia.",
+      "imageUrl": "https://www.contiki.com/six-two/app/uploads/2025/02/alfiano-sutianto-exFdOWkYBQw-unsplash-e1738772606510.jpg",
+      "imageUrl2": "https://balidave.com/wp-content/uploads/2022/11/best-hotel-bali.jpeg", 
+      "keywords": ["beach", "indonesia"]
+    },
+    {
+      "name": "Kyoto Temple",
+      "description": "Historic temples in Kyoto, Japan.",
+      "imageUrl": "https://boutiquejapan.com/wp-content/uploads/2014/01/Kinkakuji-Golden-Pavilion-Kyoto-Japan-1140.png",
+      "imageUrl2": "https://img.activityjapan.com/wi/kyoto-shrine1.jpg",
+      "keywords": ["temple", "japan"]
+    }
+  ]
+  
